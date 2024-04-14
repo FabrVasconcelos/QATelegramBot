@@ -1,0 +1,17 @@
+# Ignore Local Logs
+./logs
+./results
+./sikuli_captured
+./vscode
+./libs/__pycache__
+./Resultados
+
+# Arquivos especificos
+*.webm
+*.html
+*.xml
+Sikuli_java*
+sikuliximage*
+launch.json
+*.pyc
+config.py
