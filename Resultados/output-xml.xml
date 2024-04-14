@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" errors="0" failures="1" skipped="0" time="0.364" timestamp="2024-04-14T11:28:51.812403">
+<testsuite name="API PDV" tests="1" errors="0" failures="1" skipped="0" time="0.347" timestamp="2024-04-14T11:28:51.828506">
+<testcase classname="Tests.API PDV" name="TC01 - API Google Test" time="0.237">
+<failure message="500 != 200" type="AssertionError"/>
+</testcase>
+<properties>
+<property name="Documentation" value="Testes das API de Integração do PDV"/>
+</properties>
+</testsuite>
+</testsuite>
