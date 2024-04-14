@@ -10,8 +10,7 @@ from telebot import types
 TOKEN = config.TeleToken
 bot = telebot.TeleBot(TOKEN)
 
-# Segurança
-allowed_chat_ids = ['5440455887', '-4151731933']  # https://api.telegram.org/bot<Token>/getUpdates
+allowed_chat_ids = config.Chat_ID
 
 @bot.message_handler(commands=['start'])
 def start(message):
